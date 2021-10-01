@@ -33,11 +33,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
     override fun onClick(view: View) {
         when(view.id){
-            R.id.linearDoaSehari ->{
+            R.id.linearDoaSehari -> run {
                 val intentDoa = Intent(this@MainActivity, DoaSehariActivity::class.java)
                 startActivity(intentDoa)
             }
-            R.id.linearSurahPendek ->{
+            R.id.linearSurahPendek -> run {
                 val intentSurah = Intent(this@MainActivity, SurahPendekActivity::class.java)
                 startActivity(intentSurah)
             }
