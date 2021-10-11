@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/logo_apk"
+        android:icon="@mipmap/ikon_aplikasi"
         android:label="Doa - Doa"
-        android:roundIcon="@mipmap/logo_apk"
+        android:roundIcon="@mipmap/ikon_aplikasi"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
