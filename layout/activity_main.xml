@@ -2,7 +2,7 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_menu">
+    android:background="@drawable/bg_layoutdpn">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -68,7 +68,8 @@
                     android:layout_height="20dp"
                     android:gravity="center"
                     android:text="Audio Doa dan Surah"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
                     android:textSize="16sp" />
 
             </LinearLayout>
