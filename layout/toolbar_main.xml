@@ -16,10 +16,10 @@
             android:layout_marginStart="18dp">
 
             <ImageView
-                android:layout_width="90dp"
-                android:layout_height="90dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
                 android:layout_centerVertical="true"
-                android:src="@drawable/ic_praying" />
+                android:src="@drawable/ikon_doaseharihari" />
 
         </RelativeLayout>
 
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/imgProfile"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:orientation="vertical">
 
             <TextView

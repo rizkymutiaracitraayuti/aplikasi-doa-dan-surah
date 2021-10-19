@@ -2,7 +2,7 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_wave">
+    android:background="@drawable/bg_menu">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,74 +17,59 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/linearDoaSehari"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
                 android:layout_margin="20dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/ic_seharihari"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Doa Sehari Hari"
-                    android:textColor="@android:color/black"
-                    android:textSize="16sp"/>
+                    android:src="@drawable/button_doarev" />
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/linearSurahPendek"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
                 android:layout_margin="20dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/ic_surahpendek"/>
+                    android:src="@drawable/button_surahpendek" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Surah Pendek"
-                    android:textColor="@android:color/black"
-                    android:textSize="16sp"/>
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/linearAudio"
-                android:layout_margin="20dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="130dp"
+                    android:layout_height="120dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/ic_audio"/>
+                    android:src="@drawable/ic_audio" />
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="20dp"
                     android:gravity="center"
                     android:text="Audio Doa dan Surah"
                     android:textColor="@android:color/black"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
