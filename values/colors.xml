@@ -2,8 +2,9 @@
 <resources>
     <color name="colorPrimary">#212d3b</color>
     <color name="colorPrimaryDark">#161d27</color>
-    <color name="colorAccent">#52a2f7</color>
+    <color name="tosca">#26E0E6</color>
     <color name="black">#000000</color>
     <color name="biru">#15BACF</color>
     <color name="biru2">#45AAD8</color>
+    <color name="grey">#d4d3d3</color>
 </resources>
