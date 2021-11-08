@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
         linearDoaSehari.setOnClickListener(this)
         linearSurahPendek.setOnClickListener(this)
+        linearAudio.setOnClickListener(this)
+        linearTentang.setOnClickListener(this)
     }
 
     override fun onClick(view: View) {
@@ -40,6 +42,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
             R.id.linearSurahPendek -> run {
                 val intentSurah = Intent(this@MainActivity, SurahPendekActivity::class.java)
                 startActivity(intentSurah)
+            }
+            R.id.linearAudio -> run {
+                val intentAudio = Intent(this@MainActivity, AudioActivity::class.java)
+                startActivity(intentAudio)
+            }
+            R.id.linearTentang -> run {
+                val intentTentang = Intent(this@MainActivity, TentangAplikasi::class.java)
+                startActivity(intentTentang)
             }
         }
 
