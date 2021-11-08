@@ -5,6 +5,7 @@
     android:background="@drawable/bg_layoutdpn">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -69,12 +70,27 @@
                     android:gravity="center"
                     android:text="Audio Doa dan Surah"
                     android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
         </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearTentang"
+            android:layout_width="65dp"
+            android:layout_height="54dp"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/tentang" />
 
     </LinearLayout>
 
