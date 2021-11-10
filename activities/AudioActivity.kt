@@ -71,7 +71,16 @@ class AudioActivity : AppCompatActivity() {
         listAudio.add(AudioInfo("28. Ath Thaariq", "https://server6.mp3quran.net/thubti/086.mp3"))
         listAudio.add(AudioInfo("29. Al Buruuj", "https://server6.mp3quran.net/thubti/085.mp3"))
         listAudio.add(AudioInfo("30. Al Infithaar", "https://server6.mp3quran.net/thubti/082.mp3"))
-
+        listAudio.add(AudioInfo("31. Setelah Makan", "https://ia800200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-52DoaSetelahMakan.mp3"))
+        listAudio.add(AudioInfo("32. Bangun Tidur", "https://ia800200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-02DoaBangunTidur.mp3"))
+        listAudio.add(AudioInfo("33. Masuk Toilet", "https://ia800200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-03DoaMasukKamarMandi.mp3"))
+        listAudio.add(AudioInfo("34. Keluar Toilet", "https://ia600200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-04DoaKeluarKamarMandi.mp3"))
+        listAudio.add(AudioInfo("35. Keluar Rumah", "https://ia800200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-06DoaKeluarRumah.mp3"))
+        listAudio.add(AudioInfo("36. Masuk Rumah", "https://ia800200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-07DoaMasukRumah.mp3"))
+        listAudio.add(AudioInfo("37. Pergi Ke Masjid", "https://ia800200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-08DoaPergiKeMasjid.mp3"))
+        listAudio.add(AudioInfo("38. Masuk Masjid", "https://ia800200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-09DoaMasukMasjid.mp3"))
+        listAudio.add(AudioInfo("39. Keluar Masjid", "https://ia800200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-10DoaKeluarMasjid.mp3"))
+        listAudio.add(AudioInfo("40. Setalah Wudhu", "https://ia800200.us.archive.org/7/items/MurottalDoaSehariHari/DoaHisnulMuslim-05DoaSetelahWudhu.mp3"))
     }
 
     inner class AudioAdapter: BaseAdapter {
